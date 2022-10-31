@@ -139,7 +139,6 @@
 		84DA411A290E9AF10023D1E5 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		84DA411D290E9AF10023D1E5 /* UIFont+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 		84DA4146290E9EB10023D1E5 /* iNote Beta.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iNote Beta.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		84DA4147290E9EB10023D1E5 /* iNote copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "iNote copy-Info.plist"; path = "/Users/admin/Documents/MultiTargetAutomatisation/iNote/iNote copy-Info.plist"; sourceTree = "<absolute>"; };
 		84DA414A290E9EE40023D1E5 /* OnboardingPageCountProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageCountProvider.swift; sourceTree = "<group>"; };
 		84DA414F290E9F1A0023D1E5 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		84DA4154290EA0CB0023D1E5 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
@@ -170,6 +169,7 @@
 		84DA41A829100B800023D1E5 /* NotePreviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotePreviewViewController.xib; sourceTree = "<group>"; };
 		84DA41B1291014C50023D1E5 /* NotePreviewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePreviewPresenter.swift; sourceTree = "<group>"; };
 		84DA41B529101BD70023D1E5 /* NotePreviewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePreviewCoordinator.swift; sourceTree = "<group>"; };
+		84DA41B929102DA10023D1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,7 +195,6 @@
 			children = (
 				84DA40C4290E849C0023D1E5 /* iNote */,
 				84DA40C3290E849C0023D1E5 /* Products */,
-				84DA4147290E9EB10023D1E5 /* iNote copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -214,7 +213,6 @@
 				84DA40F2290E8D4C0023D1E5 /* Beta */,
 				84DA40ED290E8A540023D1E5 /* Alpha */,
 				84DA40E2290E861C0023D1E5 /* Common */,
-				84DA40D3290E849E0023D1E5 /* Info.plist */,
 			);
 			path = iNote;
 			sourceTree = "<group>";
@@ -388,6 +386,7 @@
 			isa = PBXGroup;
 			children = (
 				84DA414F290E9F1A0023D1E5 /* Localizable.strings */,
+				84DA41B929102DA10023D1E5 /* Info.plist */,
 				84DA4154290EA0CB0023D1E5 /* Colors.xcassets */,
 				84DA4156290EA2420023D1E5 /* Assets.xcassets */,
 			);
@@ -397,6 +396,7 @@
 		84DA414E290E9F020023D1E5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				84DA40D3290E849E0023D1E5 /* Info.plist */,
 				84DA4100290E95E20023D1E5 /* Localizable.strings */,
 				84DA4119290E9AF10023D1E5 /* Colors.xcassets */,
 				84DA40CE290E849E0023D1E5 /* Assets.xcassets */,
@@ -820,7 +820,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LA74W2Y6CY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iNote/Info.plist;
+				INFOPLIST_FILE = iNote/Alpha/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "iNote Alpha";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -830,7 +831,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gloomikon.iNote;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gloomikon.iNote.Alpha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -847,7 +848,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LA74W2Y6CY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = iNote/Info.plist;
+				INFOPLIST_FILE = iNote/Alpha/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "iNote Alpha";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -857,7 +859,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gloomikon.iNote;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gloomikon.iNote.Alpha;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -874,7 +876,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LA74W2Y6CY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iNote copy-Info.plist";
+				INFOPLIST_FILE = iNote/Beta/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "iNote Beta";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -884,7 +887,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gloomikon.iNote;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gloomikon.iNote.Beta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -901,7 +904,8 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LA74W2Y6CY;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iNote copy-Info.plist";
+				INFOPLIST_FILE = iNote/Beta/Resources/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "iNote Beta";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -911,7 +915,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.gloomikon.iNote;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gloomikon.iNote.Beta;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
