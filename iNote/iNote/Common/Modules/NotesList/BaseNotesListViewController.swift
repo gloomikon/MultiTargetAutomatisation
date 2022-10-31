@@ -36,7 +36,6 @@ class BaseNotesListViewController: UIViewController {
         presenter.viewDidLoad()
 
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addButtonTapped))
-        navigationItem.rightBarButtonItem?.tintColor = .primary800
     }
 
     @objc

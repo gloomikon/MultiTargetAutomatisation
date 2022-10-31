@@ -46,6 +46,10 @@ extension NotesListViewController: UICollectionViewDelegateFlowLayout {
     }
 }
 
-extension NotesListViewController: NotesListViewProtocol {
-    
+extension NotesListViewController: UICollectionViewDelegate {
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        presenter.tappedNote(at: indexPath.row)
+    }
 }
+
+extension NotesListViewController: NotesListViewProtocol { }

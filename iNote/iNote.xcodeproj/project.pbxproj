@@ -95,6 +95,16 @@
 		84DA419D290F0D2E0023D1E5 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA419C290F0D2E0023D1E5 /* UICollectionView+Extension.swift */; };
 		84DA419E290F0DE90023D1E5 /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA419C290F0D2E0023D1E5 /* UICollectionView+Extension.swift */; };
 		84DA419F290F0DF10023D1E5 /* UICollectionViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA419A290F0D120023D1E5 /* UICollectionViewCell+Extension.swift */; };
+		84DA41A2290FF81A0023D1E5 /* BaseNotePreviewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA41A1290FF81A0023D1E5 /* BaseNotePreviewCoordinator.swift */; };
+		84DA41A3290FF9ED0023D1E5 /* BaseNotePreviewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA41A1290FF81A0023D1E5 /* BaseNotePreviewCoordinator.swift */; };
+		84DA41A6290FFA1D0023D1E5 /* NotePreviewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA41A5290FFA1D0023D1E5 /* NotePreviewCoordinator.swift */; };
+		84DA41A929100B800023D1E5 /* NotePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA41A729100B800023D1E5 /* NotePreviewViewController.swift */; };
+		84DA41AA29100B800023D1E5 /* NotePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA41A729100B800023D1E5 /* NotePreviewViewController.swift */; };
+		84DA41AB29100B800023D1E5 /* NotePreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DA41A829100B800023D1E5 /* NotePreviewViewController.xib */; };
+		84DA41AC29100B800023D1E5 /* NotePreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DA41A829100B800023D1E5 /* NotePreviewViewController.xib */; };
+		84DA41B2291014C50023D1E5 /* NotePreviewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA41B1291014C50023D1E5 /* NotePreviewPresenter.swift */; };
+		84DA41B3291014C50023D1E5 /* NotePreviewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA41B1291014C50023D1E5 /* NotePreviewPresenter.swift */; };
+		84DA41B729101BD70023D1E5 /* NotePreviewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA41B529101BD70023D1E5 /* NotePreviewCoordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -154,6 +164,12 @@
 		84DA4197290F0C170023D1E5 /* NotesListViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotesListViewController.xib; sourceTree = "<group>"; };
 		84DA419A290F0D120023D1E5 /* UICollectionViewCell+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Extension.swift"; sourceTree = "<group>"; };
 		84DA419C290F0D2E0023D1E5 /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		84DA41A1290FF81A0023D1E5 /* BaseNotePreviewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNotePreviewCoordinator.swift; sourceTree = "<group>"; };
+		84DA41A5290FFA1D0023D1E5 /* NotePreviewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePreviewCoordinator.swift; sourceTree = "<group>"; };
+		84DA41A729100B800023D1E5 /* NotePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePreviewViewController.swift; sourceTree = "<group>"; };
+		84DA41A829100B800023D1E5 /* NotePreviewViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NotePreviewViewController.xib; sourceTree = "<group>"; };
+		84DA41B1291014C50023D1E5 /* NotePreviewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePreviewPresenter.swift; sourceTree = "<group>"; };
+		84DA41B529101BD70023D1E5 /* NotePreviewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePreviewCoordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -221,6 +237,7 @@
 		84DA40DE290E85850023D1E5 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				84DA41A0290FF7340023D1E5 /* NotePreview */,
 				84DA4158290ED4D80023D1E5 /* NotesList */,
 				84DA40DF290E858D0023D1E5 /* Onboarding */,
 			);
@@ -263,6 +280,7 @@
 		84DA40EE290E8A7A0023D1E5 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				84DA41A4290FFA070023D1E5 /* NotePreview */,
 				84DA4159290ED5070023D1E5 /* NotesList */,
 				84DA40EF290E8A830023D1E5 /* Onboarding */,
 			);
@@ -351,6 +369,7 @@
 		84DA4148290E9ED80023D1E5 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				84DA41B429101BB10023D1E5 /* NotePreview */,
 				84DA418F290F0A560023D1E5 /* NotesList */,
 				84DA4149290E9EDC0023D1E5 /* Onboarding */,
 			);
@@ -426,6 +445,33 @@
 				84DA4197290F0C170023D1E5 /* NotesListViewController.xib */,
 			);
 			path = NotesList;
+			sourceTree = "<group>";
+		};
+		84DA41A0290FF7340023D1E5 /* NotePreview */ = {
+			isa = PBXGroup;
+			children = (
+				84DA41A1290FF81A0023D1E5 /* BaseNotePreviewCoordinator.swift */,
+				84DA41B1291014C50023D1E5 /* NotePreviewPresenter.swift */,
+				84DA41A729100B800023D1E5 /* NotePreviewViewController.swift */,
+				84DA41A829100B800023D1E5 /* NotePreviewViewController.xib */,
+			);
+			path = NotePreview;
+			sourceTree = "<group>";
+		};
+		84DA41A4290FFA070023D1E5 /* NotePreview */ = {
+			isa = PBXGroup;
+			children = (
+				84DA41A5290FFA1D0023D1E5 /* NotePreviewCoordinator.swift */,
+			);
+			path = NotePreview;
+			sourceTree = "<group>";
+		};
+		84DA41B429101BB10023D1E5 /* NotePreview */ = {
+			isa = PBXGroup;
+			children = (
+				84DA41B529101BD70023D1E5 /* NotePreviewCoordinator.swift */,
+			);
+			path = NotePreview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -509,6 +555,7 @@
 				84DA4122290E9B740023D1E5 /* Colors.xcassets in Resources */,
 				84DA4111290E99830023D1E5 /* Lato-Black.ttf in Resources */,
 				84DA40D2290E849E0023D1E5 /* LaunchScreen.storyboard in Resources */,
+				84DA41AB29100B800023D1E5 /* NotePreviewViewController.xib in Resources */,
 				84DA4115290E99830023D1E5 /* Lato-Light.ttf in Resources */,
 				84DA4113290E99830023D1E5 /* Lato-Semibold.ttf in Resources */,
 				84DA4175290EDC7A0023D1E5 /* NoteTableViewCell.xib in Resources */,
@@ -531,6 +578,7 @@
 				84DA4151290E9F1C0023D1E5 /* Localizable.strings in Resources */,
 				84DA4139290E9EB10023D1E5 /* Lato-Black.ttf in Resources */,
 				84DA4194290F0C040023D1E5 /* NoteCollectionViewCell.xib in Resources */,
+				84DA41AC29100B800023D1E5 /* NotePreviewViewController.xib in Resources */,
 				84DA413A290E9EB10023D1E5 /* LaunchScreen.storyboard in Resources */,
 				84DA413B290E9EB10023D1E5 /* Lato-Light.ttf in Resources */,
 				84DA4157290EA2420023D1E5 /* Assets.xcassets in Resources */,
@@ -557,6 +605,7 @@
 				84DA40F4290E8D830023D1E5 /* CoordinatorBuilder.swift in Sources */,
 				84DA40DC290E84ED0023D1E5 /* Coordinator.swift in Sources */,
 				84DA417B290EE17F0023D1E5 /* AddData.swift in Sources */,
+				84DA41A3290FF9ED0023D1E5 /* BaseNotePreviewCoordinator.swift in Sources */,
 				84DA419F290F0DF10023D1E5 /* UICollectionViewCell+Extension.swift in Sources */,
 				84DA40E5290E86430023D1E5 /* OnboardingViewController.swift in Sources */,
 				84DA40F1290E8A950023D1E5 /* OnboardingPageCountProvider.swift in Sources */,
@@ -567,11 +616,14 @@
 				84DA40E8290E86B30023D1E5 /* OnboardingPresenter.swift in Sources */,
 				84DA40EC290E87170023D1E5 /* OnboardingInfoProvider.swift in Sources */,
 				84DA4121290E9AF10023D1E5 /* UIFont+Extension.swift in Sources */,
+				84DA41A929100B800023D1E5 /* NotePreviewViewController.swift in Sources */,
 				84DA411F290E9AF10023D1E5 /* UIColor+Extension.swift in Sources */,
 				84DA4169290ED8C20023D1E5 /* NotesListPresenter.swift in Sources */,
+				84DA41B2291014C50023D1E5 /* NotePreviewPresenter.swift in Sources */,
 				84DA418B290EE73E0023D1E5 /* NotesListViewController.swift in Sources */,
 				84DA40F6290E8DBB0023D1E5 /* AbstractFactory.swift in Sources */,
 				84DA415F290ED5240023D1E5 /* Note.swift in Sources */,
+				84DA41A6290FFA1D0023D1E5 /* NotePreviewCoordinator.swift in Sources */,
 				84DA417E290EE3A20023D1E5 /* BaseNotesListViewController.swift in Sources */,
 				84DA416C290EDA680023D1E5 /* NotesCoordinator.swift in Sources */,
 				84DA40C8290E849C0023D1E5 /* SceneDelegate.swift in Sources */,
@@ -588,13 +640,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				84DA4125290E9EB10023D1E5 /* CoordinatorBuilder.swift in Sources */,
+				84DA41A2290FF81A0023D1E5 /* BaseNotePreviewCoordinator.swift in Sources */,
 				84DA4126290E9EB10023D1E5 /* Coordinator.swift in Sources */,
 				84DA4127290E9EB10023D1E5 /* OnboardingViewController.swift in Sources */,
 				84DA4182290EE4DE0023D1E5 /* UITableViewCell+Extension.swift in Sources */,
+				84DA41B3291014C50023D1E5 /* NotePreviewPresenter.swift in Sources */,
 				84DA4129290E9EB10023D1E5 /* AppCoordinator.swift in Sources */,
 				84DA4160290ED5240023D1E5 /* Note.swift in Sources */,
 				84DA4164290ED71F0023D1E5 /* Storage.swift in Sources */,
 				84DA4179290EDFE60023D1E5 /* Date+Extension.swift in Sources */,
+				84DA41B729101BD70023D1E5 /* NotePreviewCoordinator.swift in Sources */,
 				84DA412A290E9EB10023D1E5 /* AppDelegate.swift in Sources */,
 				84DA418E290EF4070023D1E5 /* BaseNotesListViewController.swift in Sources */,
 				84DA412B290E9EB10023D1E5 /* OnboardingPresenter.swift in Sources */,
@@ -602,6 +657,7 @@
 				84DA412C290E9EB10023D1E5 /* OnboardingInfoProvider.swift in Sources */,
 				84DA412D290E9EB10023D1E5 /* UIFont+Extension.swift in Sources */,
 				84DA418D290EEA990023D1E5 /* NotesCoordinator.swift in Sources */,
+				84DA41AA29100B800023D1E5 /* NotePreviewViewController.swift in Sources */,
 				84DA4167290ED7680023D1E5 /* NotesProvider.swift in Sources */,
 				84DA419B290F0D120023D1E5 /* UICollectionViewCell+Extension.swift in Sources */,
 				84DA4198290F0C170023D1E5 /* NotesListViewController.swift in Sources */,

@@ -1,39 +1,20 @@
 import UIKit
 
-protocol NotesCoordinatorProtocol {
-    func navigateToAddNote()
-}
-
-protocol NoteCoordinatorTemplate {
-    func makeNoteCreationModule() -> UIViewController
-    func navigateToNoteCreationModule(viewController: UIViewController)
-}
-
-extension NoteCoordinatorTemplate {
-    func makeNoteCreationModule() {
-
-    }
-}
-
-extension NotesCoordinatorProtocol where Self: NoteCoordinatorTemplate {
-    func navigateToAddNote() {
-        let viewController = makeNoteCreationModule()
-        navigateToNoteCreationModule(viewController: viewController)
-    }
-}
-
 class NotesCoordinator {
 
     // MARK: - Injected properties
     private unowned let rootNavigationController: UINavigationController
     private let factory: AbstractFactory
+    private let coordinatorBuilder: CoordinatorBuilder
 
     init(
         rootNavigationController: UINavigationController,
-        factory: AbstractFactory
+        factory: AbstractFactory,
+        coordinatorBuilder: CoordinatorBuilder
     ) {
         self.rootNavigationController = rootNavigationController
         self.factory = factory
+        self.coordinatorBuilder = coordinatorBuilder
     }
 }
 
@@ -50,5 +31,19 @@ extension NotesCoordinator: Coordinator {
         rootNavigationController.navigationBar.prefersLargeTitles = true
 
         rootNavigationController.setViewControllers([viewController], animated: animated)
+    }
+}
+
+extension NotesCoordinator {
+    func goToNotesPreview(with note: Note?) {
+        coordinatorBuilder.buildNotePreviewCoordinator(
+            rootNavigationContoller: rootNavigationController,
+            note: note
+        )
+        .start(animated: true)
+    }
+
+    func goToNotesPreview() {
+        goToNotesPreview(with: nil)
     }
 }

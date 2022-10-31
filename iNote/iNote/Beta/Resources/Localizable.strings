@@ -7,3 +7,9 @@
 "notes_list_screen_title" = "Notes list";
 "notes_list_added_text" = "Added: %@";
 "notes_list_modified_text" = "Modified: %@";
+
+"note_preview_title" = "Note's title";
+"note_preview_text" = "Note's text";
+"note_preview_delete" = "Delete";
+"note_preview_done" = "Done";
+"note_preview_screen_name" = "Create | Edit note";

@@ -21,6 +21,7 @@ class AppCoordinator {
 extension AppCoordinator: Coordinator {
     func start(animated: Bool) {
         window.rootViewController = navigationController
+        navigationController.navigationBar.tintColor = .primary800
         window.makeKeyAndVisible()
 
         if AppData.onboardingPassed {

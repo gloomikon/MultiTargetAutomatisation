@@ -24,7 +24,19 @@ class CoordinatorBuilder {
     ) -> NotesCoordinator {
         .init(
             rootNavigationController: rootNavigationContoller,
-            factory: factory
+            factory: factory,
+            coordinatorBuilder: self
+        )
+    }
+
+    func buildNotePreviewCoordinator(
+        rootNavigationContoller: UINavigationController,
+        note: Note?
+    ) -> NotePreviewCoordinator {
+        .init(
+            rootNavigationController: rootNavigationContoller,
+            factory: factory,
+            note: note
         )
     }
 }

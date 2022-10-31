@@ -14,6 +14,6 @@ class ObjectFactory: AbstractFactory {
     }
 
     func makeNotesProvider() -> NotesProvider {
-        .init()
+        .shared
     }
 }
