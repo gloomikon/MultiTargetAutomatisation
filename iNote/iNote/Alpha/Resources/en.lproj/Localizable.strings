@@ -1,0 +1,11 @@
+"onboarding_title_1" = "Welcome to iNote Alpha";
+"onboarding_subtitle_1" = "Create and save your notes";
+"onboarding_title_2" = "On device cache";
+"onboarding_subtitle_2" = "Notes are saved on your iPhone, no interned connection is needed";
+"onboarding_title_3" = "Easy to use";
+"onboarding_subtitle_3" = "iNote has a unique design for delightful usage experience";
+"onboarding_button_title" = "Continue";
+
+"notes_list_screen_title" = "Notes list";
+"notes_list_added_text" = "Added: %@";
+"notes_list_modified_text" = "Modified: %@";
