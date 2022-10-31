@@ -105,6 +105,15 @@
 		84DA41B2291014C50023D1E5 /* NotePreviewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA41B1291014C50023D1E5 /* NotePreviewPresenter.swift */; };
 		84DA41B3291014C50023D1E5 /* NotePreviewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA41B1291014C50023D1E5 /* NotePreviewPresenter.swift */; };
 		84DA41B729101BD70023D1E5 /* NotePreviewCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA41B529101BD70023D1E5 /* NotePreviewCoordinator.swift */; };
+		84DA41C829102FB90023D1E5 /* iNote-Alpha-Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 84DA41BD29102FB90023D1E5 /* iNote-Alpha-Common.xcconfig */; };
+		84DA41C929102FB90023D1E5 /* iNote-Alpha-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 84DA41BE29102FB90023D1E5 /* iNote-Alpha-Release.xcconfig */; };
+		84DA41CA29102FB90023D1E5 /* iNote-Alpha-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 84DA41BF29102FB90023D1E5 /* iNote-Alpha-Debug.xcconfig */; };
+		84DA41CB29102FB90023D1E5 /* iNote-Beta-Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 84DA41C129102FB90023D1E5 /* iNote-Beta-Common.xcconfig */; };
+		84DA41CC29102FB90023D1E5 /* iNote-Beta-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 84DA41C229102FB90023D1E5 /* iNote-Beta-Debug.xcconfig */; };
+		84DA41CD29102FB90023D1E5 /* iNote-Beta-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 84DA41C329102FB90023D1E5 /* iNote-Beta-Release.xcconfig */; };
+		84DA41CE29102FB90023D1E5 /* Project-Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 84DA41C529102FB90023D1E5 /* Project-Release.xcconfig */; };
+		84DA41CF29102FBA0023D1E5 /* Project-Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 84DA41C629102FB90023D1E5 /* Project-Common.xcconfig */; };
+		84DA41D029102FBA0023D1E5 /* Project-Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 84DA41C729102FB90023D1E5 /* Project-Debug.xcconfig */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -170,6 +179,15 @@
 		84DA41B1291014C50023D1E5 /* NotePreviewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePreviewPresenter.swift; sourceTree = "<group>"; };
 		84DA41B529101BD70023D1E5 /* NotePreviewCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePreviewCoordinator.swift; sourceTree = "<group>"; };
 		84DA41B929102DA10023D1E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84DA41BD29102FB90023D1E5 /* iNote-Alpha-Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iNote-Alpha-Common.xcconfig"; sourceTree = "<group>"; };
+		84DA41BE29102FB90023D1E5 /* iNote-Alpha-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iNote-Alpha-Release.xcconfig"; sourceTree = "<group>"; };
+		84DA41BF29102FB90023D1E5 /* iNote-Alpha-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iNote-Alpha-Debug.xcconfig"; sourceTree = "<group>"; };
+		84DA41C129102FB90023D1E5 /* iNote-Beta-Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iNote-Beta-Common.xcconfig"; sourceTree = "<group>"; };
+		84DA41C229102FB90023D1E5 /* iNote-Beta-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iNote-Beta-Debug.xcconfig"; sourceTree = "<group>"; };
+		84DA41C329102FB90023D1E5 /* iNote-Beta-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "iNote-Beta-Release.xcconfig"; sourceTree = "<group>"; };
+		84DA41C529102FB90023D1E5 /* Project-Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
+		84DA41C629102FB90023D1E5 /* Project-Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Common.xcconfig"; sourceTree = "<group>"; };
+		84DA41C729102FB90023D1E5 /* Project-Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -305,6 +323,7 @@
 		84DA40FB290E95D10023D1E5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				84DA41C429102FB90023D1E5 /* Configs */,
 				84DA4117290E9AF10023D1E5 /* DesignSystem */,
 			);
 			path = Resources;
@@ -385,6 +404,7 @@
 		84DA414D290E9EF40023D1E5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				84DA41C029102FB90023D1E5 /* Configs */,
 				84DA414F290E9F1A0023D1E5 /* Localizable.strings */,
 				84DA41B929102DA10023D1E5 /* Info.plist */,
 				84DA4154290EA0CB0023D1E5 /* Colors.xcassets */,
@@ -396,6 +416,7 @@
 		84DA414E290E9F020023D1E5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				84DA41BC29102FB90023D1E5 /* Configs */,
 				84DA40D3290E849E0023D1E5 /* Info.plist */,
 				84DA4100290E95E20023D1E5 /* Localizable.strings */,
 				84DA4119290E9AF10023D1E5 /* Colors.xcassets */,
@@ -474,6 +495,36 @@
 			path = NotePreview;
 			sourceTree = "<group>";
 		};
+		84DA41BC29102FB90023D1E5 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				84DA41BD29102FB90023D1E5 /* iNote-Alpha-Common.xcconfig */,
+				84DA41BE29102FB90023D1E5 /* iNote-Alpha-Release.xcconfig */,
+				84DA41BF29102FB90023D1E5 /* iNote-Alpha-Debug.xcconfig */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		84DA41C029102FB90023D1E5 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				84DA41C129102FB90023D1E5 /* iNote-Beta-Common.xcconfig */,
+				84DA41C229102FB90023D1E5 /* iNote-Beta-Debug.xcconfig */,
+				84DA41C329102FB90023D1E5 /* iNote-Beta-Release.xcconfig */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		84DA41C429102FB90023D1E5 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				84DA41C529102FB90023D1E5 /* Project-Release.xcconfig */,
+				84DA41C629102FB90023D1E5 /* Project-Common.xcconfig */,
+				84DA41C729102FB90023D1E5 /* Project-Debug.xcconfig */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -550,7 +601,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84DA41CC29102FB90023D1E5 /* iNote-Beta-Debug.xcconfig in Resources */,
 				84DA4114290E99830023D1E5 /* Lato-Heavy.ttf in Resources */,
+				84DA41D029102FBA0023D1E5 /* Project-Debug.xcconfig in Resources */,
+				84DA41CE29102FB90023D1E5 /* Project-Release.xcconfig in Resources */,
 				84DA4116290E99830023D1E5 /* Lato-Medium.ttf in Resources */,
 				84DA4122290E9B740023D1E5 /* Colors.xcassets in Resources */,
 				84DA4111290E99830023D1E5 /* Lato-Black.ttf in Resources */,
@@ -559,13 +613,19 @@
 				84DA4115290E99830023D1E5 /* Lato-Light.ttf in Resources */,
 				84DA4113290E99830023D1E5 /* Lato-Semibold.ttf in Resources */,
 				84DA4175290EDC7A0023D1E5 /* NoteTableViewCell.xib in Resources */,
+				84DA41CD29102FB90023D1E5 /* iNote-Beta-Release.xcconfig in Resources */,
+				84DA41C929102FB90023D1E5 /* iNote-Alpha-Release.xcconfig in Resources */,
 				84DA4110290E99830023D1E5 /* Lato-Bold.ttf in Resources */,
+				84DA41CA29102FB90023D1E5 /* iNote-Alpha-Debug.xcconfig in Resources */,
 				84DA418C290EE8210023D1E5 /* NotesListViewController.xib in Resources */,
 				84DA4112290E99830023D1E5 /* Lato-Regular.ttf in Resources */,
+				84DA41C829102FB90023D1E5 /* iNote-Alpha-Common.xcconfig in Resources */,
 				84DA40FE290E95E20023D1E5 /* Localizable.strings in Resources */,
+				84DA41CF29102FBA0023D1E5 /* Project-Common.xcconfig in Resources */,
 				84DA410F290E99830023D1E5 /* Lato-Thin.ttf in Resources */,
 				84DA40CF290E849E0023D1E5 /* Assets.xcassets in Resources */,
 				84DA40E6290E86430023D1E5 /* OnboardingViewController.xib in Resources */,
+				84DA41CB29102FB90023D1E5 /* iNote-Beta-Common.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
