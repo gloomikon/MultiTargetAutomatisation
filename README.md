@@ -12,7 +12,7 @@ I suppose that every target would have a similar configuration.
 After that I use my self-written shell script, that helps with new targets creation.  
 To use it, just type  
 ```bash
-igen <path_to_targets_congif.yaml> <path_to_xcodegen_project.yaml>
+./igen <path_to_targets_congif.yaml> <path_to_xcodegen_project.yaml>
 ```
 So, all you need is to keep the targets' names in one .yaml file.  
 When you want to add a new target, you just append it's name to this .yaml.  
