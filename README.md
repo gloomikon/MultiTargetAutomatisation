@@ -53,7 +53,7 @@ targets:
 ```
 run the script
 ```bash
-igen iNote.yaml project.yml
+./igen iNote.yaml project.yml
 ```
 and regenarate the project
 ```bash
