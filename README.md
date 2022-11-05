@@ -57,7 +57,7 @@ run the script
 ```
 and regenarate the project
 ```bash
-xcode generate
+xcodegen generate
 open *.xcodeproj
 ```
 And now, iNote project has one additional target that is mix of the existing ones - it uses Recources (UI) from Alpha and Modules (UX) from Beta
