@@ -5,6 +5,6 @@ targets:
     Beta:
     Gamma:
         steals:
-            - ~/Documents/MultiTargetAutomatisation/iNote/iNote/Alpha/Resources/
-            - ~/Documents/MultiTargetAutomatisation/iNote/iNote/Beta/Modules/
+            - iNote/Alpha/Resources/
+            - iNote/Beta/Modules/
         inherit: Alpha
