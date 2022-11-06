@@ -87,7 +87,7 @@ struct IGEN: ParsableCommand {
             return .init(name: key, steals: steals, inherit: inherit)
         }
 
-        return (.init(projectName: projectName, targets: targets), dataString.split(separator: "\n").map(String.init))
+        return (.init(projectName: projectName, targets: targets), dataString.split(separator: "\n", omittingEmptySubsequences: false).map(String.init))
     }
 
     private func parseProjectYAML() throws -> (cleanedLines: [String], indexToInsert: Int, projectTargets: [ProjectTarget]) {
@@ -95,7 +95,7 @@ struct IGEN: ParsableCommand {
         let projectYAMLString = String(decoding: projectYAMLData, as: UTF8.self)
 
         // All lines in project.yaml file
-        var lines = projectYAMLString.split(separator: "\n").map(String.init)
+        var lines = projectYAMLString.split(separator: "\n", omittingEmptySubsequences: false).map(String.init)
 
         // Find the start of `targets:` section
         guard let targetsStartLineNumber = lines.firstIndex(of: "targets:") else {
@@ -252,7 +252,7 @@ struct IGEN: ParsableCommand {
         encoder.options.sortKeys = true
 
         let yaml = try encoder.encode(targetDict)
-        let yamlLines = yaml.split(separator: "\n").map(String.init)
+        let yamlLines = yaml.split(separator: "\n", omittingEmptySubsequences: false).map(String.init)
 
         var newLines = lines
         newLines.insert(contentsOf: yamlLines, at: index)
