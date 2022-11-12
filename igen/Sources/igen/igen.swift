@@ -1,9 +1,6 @@
 import ArgumentParser
 import Yams
-import Yaml
-import Stencil
 import Foundation
-import OrderedCollections
 
 enum Error: Swift.Error {
     case noProjectNameFound
