@@ -28,6 +28,11 @@ Directory iNote contains the pre-setupped project with two targets. Each target 
 They use different colors, images, presentation of notes (`UITableView` vs `UICollectionView`),  
 different logic of navigation (`push` vs `present`).  
 
+| iNote Alpha  | iNote Beta |
+| ------------- | ------------- |
+| <img src="https://github.com/gloomikon/MultiTargetAutomatisation/blob/main/.media/alpha.gif" alt="Alpha.gif" width="200"/>  | <img src="https://github.com/gloomikon/MultiTargetAutomatisation/blob/main/.media/beta.gif" alt="Beta.gif" width="200"/>  |
+
+
 Common files are located in `COMMOM` directory, target specific files are located in `{TARGET_NAME}` directory.  
 My iNote.yaml (file with targets config) looks like this:
 ```yaml
