@@ -99,31 +99,29 @@ settingGroups:
             TARGETED_DEVICE_FAMILY: 1,2
 
 targets:
-
     iNote Alpha:
-        type: application
         platform: iOS
         settings:
-            groups:
-                - base_target_settings
             base:
-                CURRENT_PROJECT_VERSION: 1
-                MARKETING_VERSION: 1.0
+                CURRENT_PROJECT_VERSION: '1'
                 INFOPLIST_FILE: iNote/Alpha/Resources/Info.plist
+                MARKETING_VERSION: '1.0'
+            groups:
+            - base_target_settings
         sources:
-            - iNote/COMMON
-            - iNote/Alpha
-
-    iNote Beta:
+        - iNote/COMMON
+        - iNote/Alpha
         type: application
+    iNote Beta:
         platform: iOS
         settings:
-            groups:
-                - base_target_settings
             base:
-                CURRENT_PROJECT_VERSION: 1
-                MARKETING_VERSION: 1.0
+                CURRENT_PROJECT_VERSION: '1'
                 INFOPLIST_FILE: iNote/Beta/Resources/Info.plist
+                MARKETING_VERSION: '1.0'
+            groups:
+            - base_target_settings
         sources:
-            - iNote/COMMON
-            - iNote/Beta
+        - iNote/COMMON
+        - iNote/Beta
+        type: application
